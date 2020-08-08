@@ -150,6 +150,10 @@ jQuery(document).ready(function($) {
 			});
 		}
 
+
+		
+	
+
 		if ( $('.owl-slide-3').length > 0 ) {
 			$('.owl-slide-3').owlCarousel({
 				center: false,

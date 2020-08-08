@@ -193,28 +193,26 @@ input[type=text]:focus ,input[type=email]:focus,input[type=url]:focus,textarea:f
 /*  active class nav */
  #sticky-wrapper > div > div > div > div > nav > ul > li.active > a{
    color: #8bc34a !important;
-   opacity: .3;
+   opacity: .5;
  }
  /*  active class nav  end*/
 
+ /* login button */
  .site-navigation{
    display:flex;
-   justify-content:space-between;
+    justify-content:flex-end;
  }
 
  .site-navigation .login{
-   margin-left: 3rem;
+   margin-left: 6rem;
+   
  }
  .site-navigation .login button{
     height:2rem;  
  }
 
- .site-navigation .login button:hover{
-   text-decoration: underline;
- 
-}
-
  .site-navigation .login .custom-btn{
  background:linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
  padding: 0;
 }
+ /* login button */

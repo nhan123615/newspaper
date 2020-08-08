@@ -599,9 +599,9 @@ h1, h2, h3, h4, h5,
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
   .owl-slide-3 .owl-nav .owl-prev, .owl-slide .owl-nav .owl-prev, .owl-style .owl-nav .owl-prev {
-    left: 24.3rem; }
+    left: 2rem; }
   .owl-slide-3 .owl-nav .owl-next, .owl-slide .owl-nav .owl-next, .owl-style .owl-nav .owl-next {
-    right: 24.2rem; }
+    right: 2rem; }
 
 
   .owl-slide-3 .owl-dots, .owl-slide .owl-dots, .owl-style .owl-dots {
