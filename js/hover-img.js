@@ -13,19 +13,21 @@ $(document).ready(function(){
 function hover(classImg, hoverClass){
     $(classImg).mouseover(function(){
         $(hoverClass).css({
+            
             'opacity' : '0.3',        
             '-webkit-transition': '.3s all ease',
             '-o-transition': '.3s all ease',
-             'transition': '.3s all ease',
+             'transition': '.3s all ease'
             
-        })
+            } )
     }).mouseout(function() {
             $(hoverClass).css({
+     
                 'opacity' : '0',
                 '-webkit-transition': '.3s all ease',
                 '-o-transition': '.3s all ease',
                  'transition': '.3s all ease'
-            })
+                } )
         });
 }
 
@@ -36,8 +38,16 @@ hover(".hero-slide",".owl-slide-3 .owl-nav .owl-prev, .owl-slide .owl-nav .owl-p
 hover(".hero-slide",".owl-slide-3 .owl-nav .owl-next, .owl-slide .owl-nav .owl-next, .owl-style .owl-nav .owl-next")
 /* hover prev,next  end*/
 
+/* hover dropdown list */
 
 
+$(".dropdown").mouseover(function(){
+    $(".dropdown-menu").addClass("d-block");
+}).mouseout(function() {
+    $(".dropdown-menu").removeClass("d-block");
+    });
+
+/* hover dropdown list end*/
 
 
 /* hoverImg(".half-post-entry img"," .half-post-entry  .contents h2 a")

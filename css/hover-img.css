@@ -42,9 +42,7 @@ img{
   
 }
 
-@media only screen and (max-width: 600px) {
 
-}
   
   
   
@@ -215,4 +213,65 @@ input[type=text]:focus ,input[type=email]:focus,input[type=url]:focus,textarea:f
  background:linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
  padding: 0;
 }
+
+@media only screen and (max-width: 991px) {
+  body > div.site-wrap > div.site-mobile-menu.site-navbar-target > div.site-mobile-menu-body > ul > li:nth-child(10) > div > button{
+    width: 15rem;  
+ }
+
+ }
+
  /* login button */
+
+ /* drop down menu */
+ 
+ #sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu{
+  display:hidden;
+  width: 65vw;
+  height: 27rem;
+  opacity: .9;
+}
+
+#sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu:hover{
+  -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+  opacity: 1;
+}
+
+
+#sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu .row{
+  margin: .3rem;
+}
+
+#sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu .card{
+  padding: .7rem 0;
+}
+
+#sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu .card .card-body{
+  padding-left:.7rem;
+
+ height:10rem;
+ margin-left: 3rem;
+}
+
+#sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu .card .card-title{
+  font-size: .8rem;
+ 
+}
+
+#sticky-wrapper > div > div > div > div > nav > ul > li .dropdown-menu .card .card-text{
+  font-size: .7rem;
+ /*  position:relative;
+  top: .7rem; */
+}
+
+@media only screen and (max-width: 1400px) {
+
+   #sticky-wrapper  .dropdown-menu{
+     visibility: hidden;
+   }
+
+ 
+  }
+  /* drop down menu end*/
